@@ -1,0 +1,7 @@
+<template><svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" v-on="listeners" v-bind="attrs" :style="styles"><path d="M17 1l4 4-4 4"/><path d="M3 11V9a4 4 0 014-4h14M7 23l-4-4 4-4"/><path d="M21 13v2a4 4 0 01-4 4H3"/></svg></template>
+<script>
+import { props, computed } from './mixin'
+export default {
+  name: "repeat-icon", props, computed,
+}
+</script>
