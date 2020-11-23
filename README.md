@@ -1,24 +1,30 @@
-# icons
+## vue-icons
+Vue icon components for Brew UI.
 
-## Project setup
-```
-yarn install
-```
+`vue-icons` is a high quality icon library, all components are displayed by `svg`.
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+<br/>
 
-### Compiles and minifies for production
-```
-yarn build
-```
+### Usage
 
-### Lints and fixes files
-```
-yarn lint
-```
+1. install: `yarn add @brew/icons`.
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+2. import all:
+    ```js
+    import { install } from '@brew/icons'
+    import Vue from 'vue'
+    
+    install(Vue)
+    ```
+
+<br/>
+
+### Documentation
+
+  - [vue-icons](https://vue-icons.geist-ui.dev/)
+
+
+<br/>
+
+### LICENSE
+[MIT](LICENSE)
