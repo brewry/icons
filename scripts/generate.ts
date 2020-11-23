@@ -44,7 +44,9 @@ export default (async () => {
   await Promise.all(
     Array.from(icons).map(async (icon: Element) => {
       const name: string = icon.querySelector('.geist-text').textContent
-      const componentName = toHumpName(name)
+      let componentName = toHumpName(name)
+      componentName = componentName.charAt(0).toUpperCase() + componentName.slice(1)
+      console.log(componentName);
       imports += `import ${componentName}Icon from './${name}.vue'\n`
       install += `  vue.component('${name}-icon', ${componentName}Icon)\n`
       exportNames += `  ${componentName}Icon,\n`

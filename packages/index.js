@@ -1,965 +1,965 @@
-import activityIcon from './activity.vue'
-import airplayIcon from './airplay.vue'
-import alertCircleIcon from './alert-circle.vue'
-import alertCircleFillIcon from './alert-circle-fill.vue'
-import alertOctagonIcon from './alert-octagon.vue'
-import alertTriangleIcon from './alert-triangle.vue'
-import alertTriangleFillIcon from './alert-triangle-fill.vue'
-import alignCenterIcon from './align-center.vue'
-import alignJustifyIcon from './align-justify.vue'
-import alignLeftIcon from './align-left.vue'
-import alignRightIcon from './align-right.vue'
-import anchorIcon from './anchor.vue'
-import apertureIcon from './aperture.vue'
-import archiveIcon from './archive.vue'
-import arrowDownIcon from './arrow-down.vue'
-import arrowDownCircleIcon from './arrow-down-circle.vue'
-import arrowDownLeftIcon from './arrow-down-left.vue'
-import arrowDownRightIcon from './arrow-down-right.vue'
-import arrowLeftIcon from './arrow-left.vue'
-import arrowLeftCircleIcon from './arrow-left-circle.vue'
-import arrowRightIcon from './arrow-right.vue'
-import arrowRightCircleIcon from './arrow-right-circle.vue'
-import arrowRightCircleFillIcon from './arrow-right-circle-fill.vue'
-import arrowUpIcon from './arrow-up.vue'
-import arrowUpCircleIcon from './arrow-up-circle.vue'
-import arrowUpLeftIcon from './arrow-up-left.vue'
-import arrowUpRightIcon from './arrow-up-right.vue'
-import atSignIcon from './at-sign.vue'
-import awardIcon from './award.vue'
-import barChartIcon from './bar-chart.vue'
-import barChart2Icon from './bar-chart-2.vue'
-import batteryIcon from './battery.vue'
-import batteryChargingIcon from './battery-charging.vue'
-import bellIcon from './bell.vue'
-import bellOffIcon from './bell-off.vue'
-import bluetoothIcon from './bluetooth.vue'
-import boldIcon from './bold.vue'
-import bookIcon from './book.vue'
-import bookOpenIcon from './book-open.vue'
-import bookmarkIcon from './bookmark.vue'
-import boxIcon from './box.vue'
-import briefcaseIcon from './briefcase.vue'
-import calendarIcon from './calendar.vue'
-import cameraIcon from './camera.vue'
-import cameraOffIcon from './camera-off.vue'
-import castIcon from './cast.vue'
-import checkIcon from './check.vue'
-import checkCircleIcon from './check-circle.vue'
-import checkInCircleIcon from './check-in-circle.vue'
-import checkInCircleFillIcon from './check-in-circle-fill.vue'
-import checkSquareIcon from './check-square.vue'
-import checkboxIcon from './checkbox.vue'
-import checkboxFillIcon from './checkbox-fill.vue'
-import chevronDownIcon from './chevron-down.vue'
-import chevronDownCircleIcon from './chevron-down-circle.vue'
-import chevronDownCircleFillIcon from './chevron-down-circle-fill.vue'
-import chevronLeftIcon from './chevron-left.vue'
-import chevronLeftCircleIcon from './chevron-left-circle.vue'
-import chevronLeftCircleFillIcon from './chevron-left-circle-fill.vue'
-import chevronRightIcon from './chevron-right.vue'
-import chevronRightCircleIcon from './chevron-right-circle.vue'
-import chevronRightCircleFillIcon from './chevron-right-circle-fill.vue'
-import chevronUpIcon from './chevron-up.vue'
-import chevronUpCircleIcon from './chevron-up-circle.vue'
-import chevronUpCircleFillIcon from './chevron-up-circle-fill.vue'
-import chevronUpDownIcon from './chevron-up-down.vue'
-import chevronsDownIcon from './chevrons-down.vue'
-import chevronsLeftIcon from './chevrons-left.vue'
-import chevronsRightIcon from './chevrons-right.vue'
-import chevronsUpIcon from './chevrons-up.vue'
-import chromeIcon from './chrome.vue'
-import circleIcon from './circle.vue'
-import clipboardIcon from './clipboard.vue'
-import clockIcon from './clock.vue'
-import cloudIcon from './cloud.vue'
-import cloudDrizzleIcon from './cloud-drizzle.vue'
-import cloudLightningIcon from './cloud-lightning.vue'
-import cloudOffIcon from './cloud-off.vue'
-import cloudRainIcon from './cloud-rain.vue'
-import cloudSnowIcon from './cloud-snow.vue'
-import codeIcon from './code.vue'
-import codepenIcon from './codepen.vue'
-import codesandboxIcon from './codesandbox.vue'
-import coffeeIcon from './coffee.vue'
-import columnsIcon from './columns.vue'
-import commandIcon from './command.vue'
-import compassIcon from './compass.vue'
-import copyIcon from './copy.vue'
-import cornerDownLeftIcon from './corner-down-left.vue'
-import cornerDownRightIcon from './corner-down-right.vue'
-import cornerLeftDownIcon from './corner-left-down.vue'
-import cornerLeftUpIcon from './corner-left-up.vue'
-import cornerRightDownIcon from './corner-right-down.vue'
-import cornerRightUpIcon from './corner-right-up.vue'
-import cornerUpLeftIcon from './corner-up-left.vue'
-import cornerUpRightIcon from './corner-up-right.vue'
-import cpuIcon from './cpu.vue'
-import creditCardIcon from './credit-card.vue'
-import cropIcon from './crop.vue'
-import crosshairIcon from './crosshair.vue'
-import databaseIcon from './database.vue'
-import deleteIcon from './delete.vue'
-import discIcon from './disc.vue'
-import displayIcon from './display.vue'
-import dividerIcon from './divider.vue'
-import dollarSignIcon from './dollar-sign.vue'
-import downloadIcon from './download.vue'
-import downloadCloudIcon from './download-cloud.vue'
-import dropletIcon from './droplet.vue'
-import editIcon from './edit.vue'
-import edit2Icon from './edit-2.vue'
-import edit3Icon from './edit-3.vue'
-import emojiIcon from './emoji.vue'
-import externalLinkIcon from './external-link.vue'
-import eyeIcon from './eye.vue'
-import eyeOffIcon from './eye-off.vue'
-import facebookIcon from './facebook.vue'
-import fastForwardIcon from './fast-forward.vue'
-import featherIcon from './feather.vue'
-import figmaIcon from './figma.vue'
-import fileIcon from './file.vue'
-import fileFunctionIcon from './file-function.vue'
-import fileFunctionFillIcon from './file-function-fill.vue'
-import fileLambdaIcon from './file-lambda.vue'
-import fileLambdaFillIcon from './file-lambda-fill.vue'
-import fileMinusIcon from './file-minus.vue'
-import filePlusIcon from './file-plus.vue'
-import fileTextIcon from './file-text.vue'
-import filmIcon from './film.vue'
-import filterIcon from './filter.vue'
-import flagIcon from './flag.vue'
-import folderIcon from './folder.vue'
-import folderMinusIcon from './folder-minus.vue'
-import folderPlusIcon from './folder-plus.vue'
-import framerIcon from './framer.vue'
-import frownIcon from './frown.vue'
-import fullScreenIcon from './full-screen.vue'
-import fullScreenCloseIcon from './full-screen-close.vue'
-import functionIcon from './function.vue'
-import giftIcon from './gift.vue'
-import gitBranchIcon from './git-branch.vue'
-import gitCommitIcon from './git-commit.vue'
-import gitMergeIcon from './git-merge.vue'
-import gitPullRequestIcon from './git-pull-request.vue'
-import githubIcon from './github.vue'
-import gitlabIcon from './gitlab.vue'
-import globeIcon from './globe.vue'
-import gridIcon from './grid.vue'
-import hardDriveIcon from './hard-drive.vue'
-import hashIcon from './hash.vue'
-import headphonesIcon from './headphones.vue'
-import heartIcon from './heart.vue'
-import heartFillIcon from './heart-fill.vue'
-import helpCircleIcon from './help-circle.vue'
-import hexagonIcon from './hexagon.vue'
-import homeIcon from './home.vue'
-import imageIcon from './image.vue'
-import inboxIcon from './inbox.vue'
-import infinityIcon from './infinity.vue'
-import infoIcon from './info.vue'
-import infoFillIcon from './info-fill.vue'
-import instagramIcon from './instagram.vue'
-import italicIcon from './italic.vue'
-import keyIcon from './key.vue'
-import lambdaIcon from './lambda.vue'
-import layersIcon from './layers.vue'
-import layoutIcon from './layout.vue'
-import lifeBuoyIcon from './life-buoy.vue'
-import linkIcon from './link.vue'
-import link2Icon from './link-2.vue'
-import linkedinIcon from './linkedin.vue'
-import listIcon from './list.vue'
-import loaderIcon from './loader.vue'
-import lockIcon from './lock.vue'
-import logInIcon from './log-in.vue'
-import logOutIcon from './log-out.vue'
-import mailIcon from './mail.vue'
-import mapIcon from './map.vue'
-import mapPinIcon from './map-pin.vue'
-import maximizeIcon from './maximize.vue'
-import maximize2Icon from './maximize-2.vue'
-import mehIcon from './meh.vue'
-import menuIcon from './menu.vue'
-import messageCircleIcon from './message-circle.vue'
-import messageSquareIcon from './message-square.vue'
-import micIcon from './mic.vue'
-import micOffIcon from './mic-off.vue'
-import minimizeIcon from './minimize.vue'
-import minimize2Icon from './minimize-2.vue'
-import minusIcon from './minus.vue'
-import minusCircleIcon from './minus-circle.vue'
-import minusSquareIcon from './minus-square.vue'
-import monitorIcon from './monitor.vue'
-import moonIcon from './moon.vue'
-import moreHorizontalIcon from './more-horizontal.vue'
-import moreVerticalIcon from './more-vertical.vue'
-import mousePointerIcon from './mouse-pointer.vue'
-import moveIcon from './move.vue'
-import musicIcon from './music.vue'
-import navigationIcon from './navigation.vue'
-import navigation2Icon from './navigation-2.vue'
-import octagonIcon from './octagon.vue'
-import packageIcon from './package.vue'
-import paperclipIcon from './paperclip.vue'
-import pauseIcon from './pause.vue'
-import pauseFillIcon from './pause-fill.vue'
-import pauseCircleIcon from './pause-circle.vue'
-import penToolIcon from './pen-tool.vue'
-import percentIcon from './percent.vue'
-import phoneIcon from './phone.vue'
-import phoneCallIcon from './phone-call.vue'
-import phoneForwardedIcon from './phone-forwarded.vue'
-import phoneIncomingIcon from './phone-incoming.vue'
-import phoneMissedIcon from './phone-missed.vue'
-import phoneOffIcon from './phone-off.vue'
-import phoneOutgoingIcon from './phone-outgoing.vue'
-import pieChartIcon from './pie-chart.vue'
-import pinIcon from './pin.vue'
-import playIcon from './play.vue'
-import playFillIcon from './play-fill.vue'
-import playCircleIcon from './play-circle.vue'
-import plusIcon from './plus.vue'
-import plusCircleIcon from './plus-circle.vue'
-import plusSquareIcon from './plus-square.vue'
-import pocketIcon from './pocket.vue'
-import powerIcon from './power.vue'
-import printerIcon from './printer.vue'
-import questionCircleIcon from './question-circle.vue'
-import radioIcon from './radio.vue'
-import refreshCcwIcon from './refresh-ccw.vue'
-import refreshCwIcon from './refresh-cw.vue'
-import repeatIcon from './repeat.vue'
-import rewindIcon from './rewind.vue'
-import rotateCcwIcon from './rotate-ccw.vue'
-import rotateCwIcon from './rotate-cw.vue'
-import rssIcon from './rss.vue'
-import saveIcon from './save.vue'
-import scissorsIcon from './scissors.vue'
-import searchIcon from './search.vue'
-import sendIcon from './send.vue'
-import serverIcon from './server.vue'
-import settingsIcon from './settings.vue'
-import shareIcon from './share.vue'
-import share2Icon from './share-2.vue'
-import shieldIcon from './shield.vue'
-import shieldOffIcon from './shield-off.vue'
-import shoppingBagIcon from './shopping-bag.vue'
-import shoppingCartIcon from './shopping-cart.vue'
-import shuffleIcon from './shuffle.vue'
-import sidebarIcon from './sidebar.vue'
-import skipBackIcon from './skip-back.vue'
-import skipForwardIcon from './skip-forward.vue'
-import slackIcon from './slack.vue'
-import slashIcon from './slash.vue'
-import slidersIcon from './sliders.vue'
-import smartphoneIcon from './smartphone.vue'
-import smileIcon from './smile.vue'
-import speakerIcon from './speaker.vue'
-import squareIcon from './square.vue'
-import starIcon from './star.vue'
-import stopCircleIcon from './stop-circle.vue'
-import sunIcon from './sun.vue'
-import sunriseIcon from './sunrise.vue'
-import sunsetIcon from './sunset.vue'
-import tabletIcon from './tablet.vue'
-import tagIcon from './tag.vue'
-import targetIcon from './target.vue'
-import terminalIcon from './terminal.vue'
-import thermometerIcon from './thermometer.vue'
-import thumbsDownIcon from './thumbs-down.vue'
-import thumbsUpIcon from './thumbs-up.vue'
-import toggleLeftIcon from './toggle-left.vue'
-import toggleRightIcon from './toggle-right.vue'
-import toolIcon from './tool.vue'
-import trashIcon from './trash.vue'
-import trash2Icon from './trash-2.vue'
-import trelloIcon from './trello.vue'
-import trendingDownIcon from './trending-down.vue'
-import trendingUpIcon from './trending-up.vue'
-import triangleIcon from './triangle.vue'
-import truckIcon from './truck.vue'
-import tvIcon from './tv.vue'
-import twitchIcon from './twitch.vue'
-import twitterIcon from './twitter.vue'
-import typeIcon from './type.vue'
-import umbrellaIcon from './umbrella.vue'
-import underlineIcon from './underline.vue'
-import unlockIcon from './unlock.vue'
-import uploadIcon from './upload.vue'
-import uploadCloudIcon from './upload-cloud.vue'
-import userIcon from './user.vue'
-import userCheckIcon from './user-check.vue'
-import userMinusIcon from './user-minus.vue'
-import userPlusIcon from './user-plus.vue'
-import userXIcon from './user-x.vue'
-import usersIcon from './users.vue'
-import videoIcon from './video.vue'
-import videoOffIcon from './video-off.vue'
-import voicemailIcon from './voicemail.vue'
-import volumeIcon from './volume.vue'
-import volumeXIcon from './volume-x.vue'
-import volume1Icon from './volume-1.vue'
-import volume2Icon from './volume-2.vue'
-import watchIcon from './watch.vue'
-import wifiIcon from './wifi.vue'
-import wifiOffIcon from './wifi-off.vue'
-import windIcon from './wind.vue'
-import xIcon from './x.vue'
-import xCircleIcon from './x-circle.vue'
-import xCircleFillIcon from './x-circle-fill.vue'
-import xOctagonIcon from './x-octagon.vue'
-import xSquareIcon from './x-square.vue'
-import youtubeIcon from './youtube.vue'
-import zapIcon from './zap.vue'
-import zapOffIcon from './zap-off.vue'
-import zeroConfigIcon from './zero-config.vue'
-import zoomInIcon from './zoom-in.vue'
-import zoomOutIcon from './zoom-out.vue'
+import ActivityIcon from './activity.vue'
+import AirplayIcon from './airplay.vue'
+import AlertCircleIcon from './alert-circle.vue'
+import AlertCircleFillIcon from './alert-circle-fill.vue'
+import AlertOctagonIcon from './alert-octagon.vue'
+import AlertTriangleIcon from './alert-triangle.vue'
+import AlertTriangleFillIcon from './alert-triangle-fill.vue'
+import AlignCenterIcon from './align-center.vue'
+import AlignJustifyIcon from './align-justify.vue'
+import AlignLeftIcon from './align-left.vue'
+import AlignRightIcon from './align-right.vue'
+import AnchorIcon from './anchor.vue'
+import ApertureIcon from './aperture.vue'
+import ArchiveIcon from './archive.vue'
+import ArrowDownIcon from './arrow-down.vue'
+import ArrowDownCircleIcon from './arrow-down-circle.vue'
+import ArrowDownLeftIcon from './arrow-down-left.vue'
+import ArrowDownRightIcon from './arrow-down-right.vue'
+import ArrowLeftIcon from './arrow-left.vue'
+import ArrowLeftCircleIcon from './arrow-left-circle.vue'
+import ArrowRightIcon from './arrow-right.vue'
+import ArrowRightCircleIcon from './arrow-right-circle.vue'
+import ArrowRightCircleFillIcon from './arrow-right-circle-fill.vue'
+import ArrowUpIcon from './arrow-up.vue'
+import ArrowUpCircleIcon from './arrow-up-circle.vue'
+import ArrowUpLeftIcon from './arrow-up-left.vue'
+import ArrowUpRightIcon from './arrow-up-right.vue'
+import AtSignIcon from './at-sign.vue'
+import AwardIcon from './award.vue'
+import BarChartIcon from './bar-chart.vue'
+import BarChart2Icon from './bar-chart-2.vue'
+import BatteryIcon from './battery.vue'
+import BatteryChargingIcon from './battery-charging.vue'
+import BellIcon from './bell.vue'
+import BellOffIcon from './bell-off.vue'
+import BluetoothIcon from './bluetooth.vue'
+import BoldIcon from './bold.vue'
+import BookIcon from './book.vue'
+import BookOpenIcon from './book-open.vue'
+import BookmarkIcon from './bookmark.vue'
+import BoxIcon from './box.vue'
+import BriefcaseIcon from './briefcase.vue'
+import CalendarIcon from './calendar.vue'
+import CameraIcon from './camera.vue'
+import CameraOffIcon from './camera-off.vue'
+import CastIcon from './cast.vue'
+import CheckIcon from './check.vue'
+import CheckCircleIcon from './check-circle.vue'
+import CheckInCircleIcon from './check-in-circle.vue'
+import CheckInCircleFillIcon from './check-in-circle-fill.vue'
+import CheckSquareIcon from './check-square.vue'
+import CheckboxIcon from './checkbox.vue'
+import CheckboxFillIcon from './checkbox-fill.vue'
+import ChevronDownIcon from './chevron-down.vue'
+import ChevronDownCircleIcon from './chevron-down-circle.vue'
+import ChevronDownCircleFillIcon from './chevron-down-circle-fill.vue'
+import ChevronLeftIcon from './chevron-left.vue'
+import ChevronLeftCircleIcon from './chevron-left-circle.vue'
+import ChevronLeftCircleFillIcon from './chevron-left-circle-fill.vue'
+import ChevronRightIcon from './chevron-right.vue'
+import ChevronRightCircleIcon from './chevron-right-circle.vue'
+import ChevronRightCircleFillIcon from './chevron-right-circle-fill.vue'
+import ChevronUpIcon from './chevron-up.vue'
+import ChevronUpCircleIcon from './chevron-up-circle.vue'
+import ChevronUpCircleFillIcon from './chevron-up-circle-fill.vue'
+import ChevronUpDownIcon from './chevron-up-down.vue'
+import ChevronsDownIcon from './chevrons-down.vue'
+import ChevronsLeftIcon from './chevrons-left.vue'
+import ChevronsRightIcon from './chevrons-right.vue'
+import ChevronsUpIcon from './chevrons-up.vue'
+import ChromeIcon from './chrome.vue'
+import CircleIcon from './circle.vue'
+import ClipboardIcon from './clipboard.vue'
+import ClockIcon from './clock.vue'
+import CloudIcon from './cloud.vue'
+import CloudDrizzleIcon from './cloud-drizzle.vue'
+import CloudLightningIcon from './cloud-lightning.vue'
+import CloudOffIcon from './cloud-off.vue'
+import CloudRainIcon from './cloud-rain.vue'
+import CloudSnowIcon from './cloud-snow.vue'
+import CodeIcon from './code.vue'
+import CodepenIcon from './codepen.vue'
+import CodesandboxIcon from './codesandbox.vue'
+import CoffeeIcon from './coffee.vue'
+import ColumnsIcon from './columns.vue'
+import CommandIcon from './command.vue'
+import CompassIcon from './compass.vue'
+import CopyIcon from './copy.vue'
+import CornerDownLeftIcon from './corner-down-left.vue'
+import CornerDownRightIcon from './corner-down-right.vue'
+import CornerLeftDownIcon from './corner-left-down.vue'
+import CornerLeftUpIcon from './corner-left-up.vue'
+import CornerRightDownIcon from './corner-right-down.vue'
+import CornerRightUpIcon from './corner-right-up.vue'
+import CornerUpLeftIcon from './corner-up-left.vue'
+import CornerUpRightIcon from './corner-up-right.vue'
+import CpuIcon from './cpu.vue'
+import CreditCardIcon from './credit-card.vue'
+import CropIcon from './crop.vue'
+import CrosshairIcon from './crosshair.vue'
+import DatabaseIcon from './database.vue'
+import DeleteIcon from './delete.vue'
+import DiscIcon from './disc.vue'
+import DisplayIcon from './display.vue'
+import DividerIcon from './divider.vue'
+import DollarSignIcon from './dollar-sign.vue'
+import DownloadIcon from './download.vue'
+import DownloadCloudIcon from './download-cloud.vue'
+import DropletIcon from './droplet.vue'
+import EditIcon from './edit.vue'
+import Edit2Icon from './edit-2.vue'
+import Edit3Icon from './edit-3.vue'
+import EmojiIcon from './emoji.vue'
+import ExternalLinkIcon from './external-link.vue'
+import EyeIcon from './eye.vue'
+import EyeOffIcon from './eye-off.vue'
+import FacebookIcon from './facebook.vue'
+import FastForwardIcon from './fast-forward.vue'
+import FeatherIcon from './feather.vue'
+import FigmaIcon from './figma.vue'
+import FileIcon from './file.vue'
+import FileFunctionIcon from './file-function.vue'
+import FileFunctionFillIcon from './file-function-fill.vue'
+import FileLambdaIcon from './file-lambda.vue'
+import FileLambdaFillIcon from './file-lambda-fill.vue'
+import FileMinusIcon from './file-minus.vue'
+import FilePlusIcon from './file-plus.vue'
+import FileTextIcon from './file-text.vue'
+import FilmIcon from './film.vue'
+import FilterIcon from './filter.vue'
+import FlagIcon from './flag.vue'
+import FolderIcon from './folder.vue'
+import FolderMinusIcon from './folder-minus.vue'
+import FolderPlusIcon from './folder-plus.vue'
+import FramerIcon from './framer.vue'
+import FrownIcon from './frown.vue'
+import FullScreenIcon from './full-screen.vue'
+import FullScreenCloseIcon from './full-screen-close.vue'
+import FunctionIcon from './function.vue'
+import GiftIcon from './gift.vue'
+import GitBranchIcon from './git-branch.vue'
+import GitCommitIcon from './git-commit.vue'
+import GitMergeIcon from './git-merge.vue'
+import GitPullRequestIcon from './git-pull-request.vue'
+import GithubIcon from './github.vue'
+import GitlabIcon from './gitlab.vue'
+import GlobeIcon from './globe.vue'
+import GridIcon from './grid.vue'
+import HardDriveIcon from './hard-drive.vue'
+import HashIcon from './hash.vue'
+import HeadphonesIcon from './headphones.vue'
+import HeartIcon from './heart.vue'
+import HeartFillIcon from './heart-fill.vue'
+import HelpCircleIcon from './help-circle.vue'
+import HexagonIcon from './hexagon.vue'
+import HomeIcon from './home.vue'
+import ImageIcon from './image.vue'
+import InboxIcon from './inbox.vue'
+import InfinityIcon from './infinity.vue'
+import InfoIcon from './info.vue'
+import InfoFillIcon from './info-fill.vue'
+import InstagramIcon from './instagram.vue'
+import ItalicIcon from './italic.vue'
+import KeyIcon from './key.vue'
+import LambdaIcon from './lambda.vue'
+import LayersIcon from './layers.vue'
+import LayoutIcon from './layout.vue'
+import LifeBuoyIcon from './life-buoy.vue'
+import LinkIcon from './link.vue'
+import Link2Icon from './link-2.vue'
+import LinkedinIcon from './linkedin.vue'
+import ListIcon from './list.vue'
+import LoaderIcon from './loader.vue'
+import LockIcon from './lock.vue'
+import LogInIcon from './log-in.vue'
+import LogOutIcon from './log-out.vue'
+import MailIcon from './mail.vue'
+import MapIcon from './map.vue'
+import MapPinIcon from './map-pin.vue'
+import MaximizeIcon from './maximize.vue'
+import Maximize2Icon from './maximize-2.vue'
+import MehIcon from './meh.vue'
+import MenuIcon from './menu.vue'
+import MessageCircleIcon from './message-circle.vue'
+import MessageSquareIcon from './message-square.vue'
+import MicIcon from './mic.vue'
+import MicOffIcon from './mic-off.vue'
+import MinimizeIcon from './minimize.vue'
+import Minimize2Icon from './minimize-2.vue'
+import MinusIcon from './minus.vue'
+import MinusCircleIcon from './minus-circle.vue'
+import MinusSquareIcon from './minus-square.vue'
+import MonitorIcon from './monitor.vue'
+import MoonIcon from './moon.vue'
+import MoreHorizontalIcon from './more-horizontal.vue'
+import MoreVerticalIcon from './more-vertical.vue'
+import MousePointerIcon from './mouse-pointer.vue'
+import MoveIcon from './move.vue'
+import MusicIcon from './music.vue'
+import NavigationIcon from './navigation.vue'
+import Navigation2Icon from './navigation-2.vue'
+import OctagonIcon from './octagon.vue'
+import PackageIcon from './package.vue'
+import PaperclipIcon from './paperclip.vue'
+import PauseIcon from './pause.vue'
+import PauseFillIcon from './pause-fill.vue'
+import PauseCircleIcon from './pause-circle.vue'
+import PenToolIcon from './pen-tool.vue'
+import PercentIcon from './percent.vue'
+import PhoneIcon from './phone.vue'
+import PhoneCallIcon from './phone-call.vue'
+import PhoneForwardedIcon from './phone-forwarded.vue'
+import PhoneIncomingIcon from './phone-incoming.vue'
+import PhoneMissedIcon from './phone-missed.vue'
+import PhoneOffIcon from './phone-off.vue'
+import PhoneOutgoingIcon from './phone-outgoing.vue'
+import PieChartIcon from './pie-chart.vue'
+import PinIcon from './pin.vue'
+import PlayIcon from './play.vue'
+import PlayFillIcon from './play-fill.vue'
+import PlayCircleIcon from './play-circle.vue'
+import PlusIcon from './plus.vue'
+import PlusCircleIcon from './plus-circle.vue'
+import PlusSquareIcon from './plus-square.vue'
+import PocketIcon from './pocket.vue'
+import PowerIcon from './power.vue'
+import PrinterIcon from './printer.vue'
+import QuestionCircleIcon from './question-circle.vue'
+import RadioIcon from './radio.vue'
+import RefreshCcwIcon from './refresh-ccw.vue'
+import RefreshCwIcon from './refresh-cw.vue'
+import RepeatIcon from './repeat.vue'
+import RewindIcon from './rewind.vue'
+import RotateCcwIcon from './rotate-ccw.vue'
+import RotateCwIcon from './rotate-cw.vue'
+import RssIcon from './rss.vue'
+import SaveIcon from './save.vue'
+import ScissorsIcon from './scissors.vue'
+import SearchIcon from './search.vue'
+import SendIcon from './send.vue'
+import ServerIcon from './server.vue'
+import SettingsIcon from './settings.vue'
+import ShareIcon from './share.vue'
+import Share2Icon from './share-2.vue'
+import ShieldIcon from './shield.vue'
+import ShieldOffIcon from './shield-off.vue'
+import ShoppingBagIcon from './shopping-bag.vue'
+import ShoppingCartIcon from './shopping-cart.vue'
+import ShuffleIcon from './shuffle.vue'
+import SidebarIcon from './sidebar.vue'
+import SkipBackIcon from './skip-back.vue'
+import SkipForwardIcon from './skip-forward.vue'
+import SlackIcon from './slack.vue'
+import SlashIcon from './slash.vue'
+import SlidersIcon from './sliders.vue'
+import SmartphoneIcon from './smartphone.vue'
+import SmileIcon from './smile.vue'
+import SpeakerIcon from './speaker.vue'
+import SquareIcon from './square.vue'
+import StarIcon from './star.vue'
+import StopCircleIcon from './stop-circle.vue'
+import SunIcon from './sun.vue'
+import SunriseIcon from './sunrise.vue'
+import SunsetIcon from './sunset.vue'
+import TabletIcon from './tablet.vue'
+import TagIcon from './tag.vue'
+import TargetIcon from './target.vue'
+import TerminalIcon from './terminal.vue'
+import ThermometerIcon from './thermometer.vue'
+import ThumbsDownIcon from './thumbs-down.vue'
+import ThumbsUpIcon from './thumbs-up.vue'
+import ToggleLeftIcon from './toggle-left.vue'
+import ToggleRightIcon from './toggle-right.vue'
+import ToolIcon from './tool.vue'
+import TrashIcon from './trash.vue'
+import Trash2Icon from './trash-2.vue'
+import TrelloIcon from './trello.vue'
+import TrendingDownIcon from './trending-down.vue'
+import TrendingUpIcon from './trending-up.vue'
+import TriangleIcon from './triangle.vue'
+import TruckIcon from './truck.vue'
+import TvIcon from './tv.vue'
+import TwitchIcon from './twitch.vue'
+import TwitterIcon from './twitter.vue'
+import TypeIcon from './type.vue'
+import UmbrellaIcon from './umbrella.vue'
+import UnderlineIcon from './underline.vue'
+import UnlockIcon from './unlock.vue'
+import UploadIcon from './upload.vue'
+import UploadCloudIcon from './upload-cloud.vue'
+import UserIcon from './user.vue'
+import UserCheckIcon from './user-check.vue'
+import UserMinusIcon from './user-minus.vue'
+import UserPlusIcon from './user-plus.vue'
+import UserXIcon from './user-x.vue'
+import UsersIcon from './users.vue'
+import VideoIcon from './video.vue'
+import VideoOffIcon from './video-off.vue'
+import VoicemailIcon from './voicemail.vue'
+import VolumeIcon from './volume.vue'
+import VolumeXIcon from './volume-x.vue'
+import Volume1Icon from './volume-1.vue'
+import Volume2Icon from './volume-2.vue'
+import WatchIcon from './watch.vue'
+import WifiIcon from './wifi.vue'
+import WifiOffIcon from './wifi-off.vue'
+import WindIcon from './wind.vue'
+import XIcon from './x.vue'
+import XCircleIcon from './x-circle.vue'
+import XCircleFillIcon from './x-circle-fill.vue'
+import XOctagonIcon from './x-octagon.vue'
+import XSquareIcon from './x-square.vue'
+import YoutubeIcon from './youtube.vue'
+import ZapIcon from './zap.vue'
+import ZapOffIcon from './zap-off.vue'
+import ZeroConfigIcon from './zero-config.vue'
+import ZoomInIcon from './zoom-in.vue'
+import ZoomOutIcon from './zoom-out.vue'
 
 
 const install = vue => {
-  vue.component('activity-icon', activityIcon)
-  vue.component('airplay-icon', airplayIcon)
-  vue.component('alert-circle-icon', alertCircleIcon)
-  vue.component('alert-circle-fill-icon', alertCircleFillIcon)
-  vue.component('alert-octagon-icon', alertOctagonIcon)
-  vue.component('alert-triangle-icon', alertTriangleIcon)
-  vue.component('alert-triangle-fill-icon', alertTriangleFillIcon)
-  vue.component('align-center-icon', alignCenterIcon)
-  vue.component('align-justify-icon', alignJustifyIcon)
-  vue.component('align-left-icon', alignLeftIcon)
-  vue.component('align-right-icon', alignRightIcon)
-  vue.component('anchor-icon', anchorIcon)
-  vue.component('aperture-icon', apertureIcon)
-  vue.component('archive-icon', archiveIcon)
-  vue.component('arrow-down-icon', arrowDownIcon)
-  vue.component('arrow-down-circle-icon', arrowDownCircleIcon)
-  vue.component('arrow-down-left-icon', arrowDownLeftIcon)
-  vue.component('arrow-down-right-icon', arrowDownRightIcon)
-  vue.component('arrow-left-icon', arrowLeftIcon)
-  vue.component('arrow-left-circle-icon', arrowLeftCircleIcon)
-  vue.component('arrow-right-icon', arrowRightIcon)
-  vue.component('arrow-right-circle-icon', arrowRightCircleIcon)
-  vue.component('arrow-right-circle-fill-icon', arrowRightCircleFillIcon)
-  vue.component('arrow-up-icon', arrowUpIcon)
-  vue.component('arrow-up-circle-icon', arrowUpCircleIcon)
-  vue.component('arrow-up-left-icon', arrowUpLeftIcon)
-  vue.component('arrow-up-right-icon', arrowUpRightIcon)
-  vue.component('at-sign-icon', atSignIcon)
-  vue.component('award-icon', awardIcon)
-  vue.component('bar-chart-icon', barChartIcon)
-  vue.component('bar-chart-2-icon', barChart2Icon)
-  vue.component('battery-icon', batteryIcon)
-  vue.component('battery-charging-icon', batteryChargingIcon)
-  vue.component('bell-icon', bellIcon)
-  vue.component('bell-off-icon', bellOffIcon)
-  vue.component('bluetooth-icon', bluetoothIcon)
-  vue.component('bold-icon', boldIcon)
-  vue.component('book-icon', bookIcon)
-  vue.component('book-open-icon', bookOpenIcon)
-  vue.component('bookmark-icon', bookmarkIcon)
-  vue.component('box-icon', boxIcon)
-  vue.component('briefcase-icon', briefcaseIcon)
-  vue.component('calendar-icon', calendarIcon)
-  vue.component('camera-icon', cameraIcon)
-  vue.component('camera-off-icon', cameraOffIcon)
-  vue.component('cast-icon', castIcon)
-  vue.component('check-icon', checkIcon)
-  vue.component('check-circle-icon', checkCircleIcon)
-  vue.component('check-in-circle-icon', checkInCircleIcon)
-  vue.component('check-in-circle-fill-icon', checkInCircleFillIcon)
-  vue.component('check-square-icon', checkSquareIcon)
-  vue.component('checkbox-icon', checkboxIcon)
-  vue.component('checkbox-fill-icon', checkboxFillIcon)
-  vue.component('chevron-down-icon', chevronDownIcon)
-  vue.component('chevron-down-circle-icon', chevronDownCircleIcon)
-  vue.component('chevron-down-circle-fill-icon', chevronDownCircleFillIcon)
-  vue.component('chevron-left-icon', chevronLeftIcon)
-  vue.component('chevron-left-circle-icon', chevronLeftCircleIcon)
-  vue.component('chevron-left-circle-fill-icon', chevronLeftCircleFillIcon)
-  vue.component('chevron-right-icon', chevronRightIcon)
-  vue.component('chevron-right-circle-icon', chevronRightCircleIcon)
-  vue.component('chevron-right-circle-fill-icon', chevronRightCircleFillIcon)
-  vue.component('chevron-up-icon', chevronUpIcon)
-  vue.component('chevron-up-circle-icon', chevronUpCircleIcon)
-  vue.component('chevron-up-circle-fill-icon', chevronUpCircleFillIcon)
-  vue.component('chevron-up-down-icon', chevronUpDownIcon)
-  vue.component('chevrons-down-icon', chevronsDownIcon)
-  vue.component('chevrons-left-icon', chevronsLeftIcon)
-  vue.component('chevrons-right-icon', chevronsRightIcon)
-  vue.component('chevrons-up-icon', chevronsUpIcon)
-  vue.component('chrome-icon', chromeIcon)
-  vue.component('circle-icon', circleIcon)
-  vue.component('clipboard-icon', clipboardIcon)
-  vue.component('clock-icon', clockIcon)
-  vue.component('cloud-icon', cloudIcon)
-  vue.component('cloud-drizzle-icon', cloudDrizzleIcon)
-  vue.component('cloud-lightning-icon', cloudLightningIcon)
-  vue.component('cloud-off-icon', cloudOffIcon)
-  vue.component('cloud-rain-icon', cloudRainIcon)
-  vue.component('cloud-snow-icon', cloudSnowIcon)
-  vue.component('code-icon', codeIcon)
-  vue.component('codepen-icon', codepenIcon)
-  vue.component('codesandbox-icon', codesandboxIcon)
-  vue.component('coffee-icon', coffeeIcon)
-  vue.component('columns-icon', columnsIcon)
-  vue.component('command-icon', commandIcon)
-  vue.component('compass-icon', compassIcon)
-  vue.component('copy-icon', copyIcon)
-  vue.component('corner-down-left-icon', cornerDownLeftIcon)
-  vue.component('corner-down-right-icon', cornerDownRightIcon)
-  vue.component('corner-left-down-icon', cornerLeftDownIcon)
-  vue.component('corner-left-up-icon', cornerLeftUpIcon)
-  vue.component('corner-right-down-icon', cornerRightDownIcon)
-  vue.component('corner-right-up-icon', cornerRightUpIcon)
-  vue.component('corner-up-left-icon', cornerUpLeftIcon)
-  vue.component('corner-up-right-icon', cornerUpRightIcon)
-  vue.component('cpu-icon', cpuIcon)
-  vue.component('credit-card-icon', creditCardIcon)
-  vue.component('crop-icon', cropIcon)
-  vue.component('crosshair-icon', crosshairIcon)
-  vue.component('database-icon', databaseIcon)
-  vue.component('delete-icon', deleteIcon)
-  vue.component('disc-icon', discIcon)
-  vue.component('display-icon', displayIcon)
-  vue.component('divider-icon', dividerIcon)
-  vue.component('dollar-sign-icon', dollarSignIcon)
-  vue.component('download-icon', downloadIcon)
-  vue.component('download-cloud-icon', downloadCloudIcon)
-  vue.component('droplet-icon', dropletIcon)
-  vue.component('edit-icon', editIcon)
-  vue.component('edit-2-icon', edit2Icon)
-  vue.component('edit-3-icon', edit3Icon)
-  vue.component('emoji-icon', emojiIcon)
-  vue.component('external-link-icon', externalLinkIcon)
-  vue.component('eye-icon', eyeIcon)
-  vue.component('eye-off-icon', eyeOffIcon)
-  vue.component('facebook-icon', facebookIcon)
-  vue.component('fast-forward-icon', fastForwardIcon)
-  vue.component('feather-icon', featherIcon)
-  vue.component('figma-icon', figmaIcon)
-  vue.component('file-icon', fileIcon)
-  vue.component('file-function-icon', fileFunctionIcon)
-  vue.component('file-function-fill-icon', fileFunctionFillIcon)
-  vue.component('file-lambda-icon', fileLambdaIcon)
-  vue.component('file-lambda-fill-icon', fileLambdaFillIcon)
-  vue.component('file-minus-icon', fileMinusIcon)
-  vue.component('file-plus-icon', filePlusIcon)
-  vue.component('file-text-icon', fileTextIcon)
-  vue.component('film-icon', filmIcon)
-  vue.component('filter-icon', filterIcon)
-  vue.component('flag-icon', flagIcon)
-  vue.component('folder-icon', folderIcon)
-  vue.component('folder-minus-icon', folderMinusIcon)
-  vue.component('folder-plus-icon', folderPlusIcon)
-  vue.component('framer-icon', framerIcon)
-  vue.component('frown-icon', frownIcon)
-  vue.component('full-screen-icon', fullScreenIcon)
-  vue.component('full-screen-close-icon', fullScreenCloseIcon)
-  vue.component('function-icon', functionIcon)
-  vue.component('gift-icon', giftIcon)
-  vue.component('git-branch-icon', gitBranchIcon)
-  vue.component('git-commit-icon', gitCommitIcon)
-  vue.component('git-merge-icon', gitMergeIcon)
-  vue.component('git-pull-request-icon', gitPullRequestIcon)
-  vue.component('github-icon', githubIcon)
-  vue.component('gitlab-icon', gitlabIcon)
-  vue.component('globe-icon', globeIcon)
-  vue.component('grid-icon', gridIcon)
-  vue.component('hard-drive-icon', hardDriveIcon)
-  vue.component('hash-icon', hashIcon)
-  vue.component('headphones-icon', headphonesIcon)
-  vue.component('heart-icon', heartIcon)
-  vue.component('heart-fill-icon', heartFillIcon)
-  vue.component('help-circle-icon', helpCircleIcon)
-  vue.component('hexagon-icon', hexagonIcon)
-  vue.component('home-icon', homeIcon)
-  vue.component('image-icon', imageIcon)
-  vue.component('inbox-icon', inboxIcon)
-  vue.component('infinity-icon', infinityIcon)
-  vue.component('info-icon', infoIcon)
-  vue.component('info-fill-icon', infoFillIcon)
-  vue.component('instagram-icon', instagramIcon)
-  vue.component('italic-icon', italicIcon)
-  vue.component('key-icon', keyIcon)
-  vue.component('lambda-icon', lambdaIcon)
-  vue.component('layers-icon', layersIcon)
-  vue.component('layout-icon', layoutIcon)
-  vue.component('life-buoy-icon', lifeBuoyIcon)
-  vue.component('link-icon', linkIcon)
-  vue.component('link-2-icon', link2Icon)
-  vue.component('linkedin-icon', linkedinIcon)
-  vue.component('list-icon', listIcon)
-  vue.component('loader-icon', loaderIcon)
-  vue.component('lock-icon', lockIcon)
-  vue.component('log-in-icon', logInIcon)
-  vue.component('log-out-icon', logOutIcon)
-  vue.component('mail-icon', mailIcon)
-  vue.component('map-icon', mapIcon)
-  vue.component('map-pin-icon', mapPinIcon)
-  vue.component('maximize-icon', maximizeIcon)
-  vue.component('maximize-2-icon', maximize2Icon)
-  vue.component('meh-icon', mehIcon)
-  vue.component('menu-icon', menuIcon)
-  vue.component('message-circle-icon', messageCircleIcon)
-  vue.component('message-square-icon', messageSquareIcon)
-  vue.component('mic-icon', micIcon)
-  vue.component('mic-off-icon', micOffIcon)
-  vue.component('minimize-icon', minimizeIcon)
-  vue.component('minimize-2-icon', minimize2Icon)
-  vue.component('minus-icon', minusIcon)
-  vue.component('minus-circle-icon', minusCircleIcon)
-  vue.component('minus-square-icon', minusSquareIcon)
-  vue.component('monitor-icon', monitorIcon)
-  vue.component('moon-icon', moonIcon)
-  vue.component('more-horizontal-icon', moreHorizontalIcon)
-  vue.component('more-vertical-icon', moreVerticalIcon)
-  vue.component('mouse-pointer-icon', mousePointerIcon)
-  vue.component('move-icon', moveIcon)
-  vue.component('music-icon', musicIcon)
-  vue.component('navigation-icon', navigationIcon)
-  vue.component('navigation-2-icon', navigation2Icon)
-  vue.component('octagon-icon', octagonIcon)
-  vue.component('package-icon', packageIcon)
-  vue.component('paperclip-icon', paperclipIcon)
-  vue.component('pause-icon', pauseIcon)
-  vue.component('pause-fill-icon', pauseFillIcon)
-  vue.component('pause-circle-icon', pauseCircleIcon)
-  vue.component('pen-tool-icon', penToolIcon)
-  vue.component('percent-icon', percentIcon)
-  vue.component('phone-icon', phoneIcon)
-  vue.component('phone-call-icon', phoneCallIcon)
-  vue.component('phone-forwarded-icon', phoneForwardedIcon)
-  vue.component('phone-incoming-icon', phoneIncomingIcon)
-  vue.component('phone-missed-icon', phoneMissedIcon)
-  vue.component('phone-off-icon', phoneOffIcon)
-  vue.component('phone-outgoing-icon', phoneOutgoingIcon)
-  vue.component('pie-chart-icon', pieChartIcon)
-  vue.component('pin-icon', pinIcon)
-  vue.component('play-icon', playIcon)
-  vue.component('play-fill-icon', playFillIcon)
-  vue.component('play-circle-icon', playCircleIcon)
-  vue.component('plus-icon', plusIcon)
-  vue.component('plus-circle-icon', plusCircleIcon)
-  vue.component('plus-square-icon', plusSquareIcon)
-  vue.component('pocket-icon', pocketIcon)
-  vue.component('power-icon', powerIcon)
-  vue.component('printer-icon', printerIcon)
-  vue.component('question-circle-icon', questionCircleIcon)
-  vue.component('radio-icon', radioIcon)
-  vue.component('refresh-ccw-icon', refreshCcwIcon)
-  vue.component('refresh-cw-icon', refreshCwIcon)
-  vue.component('repeat-icon', repeatIcon)
-  vue.component('rewind-icon', rewindIcon)
-  vue.component('rotate-ccw-icon', rotateCcwIcon)
-  vue.component('rotate-cw-icon', rotateCwIcon)
-  vue.component('rss-icon', rssIcon)
-  vue.component('save-icon', saveIcon)
-  vue.component('scissors-icon', scissorsIcon)
-  vue.component('search-icon', searchIcon)
-  vue.component('send-icon', sendIcon)
-  vue.component('server-icon', serverIcon)
-  vue.component('settings-icon', settingsIcon)
-  vue.component('share-icon', shareIcon)
-  vue.component('share-2-icon', share2Icon)
-  vue.component('shield-icon', shieldIcon)
-  vue.component('shield-off-icon', shieldOffIcon)
-  vue.component('shopping-bag-icon', shoppingBagIcon)
-  vue.component('shopping-cart-icon', shoppingCartIcon)
-  vue.component('shuffle-icon', shuffleIcon)
-  vue.component('sidebar-icon', sidebarIcon)
-  vue.component('skip-back-icon', skipBackIcon)
-  vue.component('skip-forward-icon', skipForwardIcon)
-  vue.component('slack-icon', slackIcon)
-  vue.component('slash-icon', slashIcon)
-  vue.component('sliders-icon', slidersIcon)
-  vue.component('smartphone-icon', smartphoneIcon)
-  vue.component('smile-icon', smileIcon)
-  vue.component('speaker-icon', speakerIcon)
-  vue.component('square-icon', squareIcon)
-  vue.component('star-icon', starIcon)
-  vue.component('stop-circle-icon', stopCircleIcon)
-  vue.component('sun-icon', sunIcon)
-  vue.component('sunrise-icon', sunriseIcon)
-  vue.component('sunset-icon', sunsetIcon)
-  vue.component('tablet-icon', tabletIcon)
-  vue.component('tag-icon', tagIcon)
-  vue.component('target-icon', targetIcon)
-  vue.component('terminal-icon', terminalIcon)
-  vue.component('thermometer-icon', thermometerIcon)
-  vue.component('thumbs-down-icon', thumbsDownIcon)
-  vue.component('thumbs-up-icon', thumbsUpIcon)
-  vue.component('toggle-left-icon', toggleLeftIcon)
-  vue.component('toggle-right-icon', toggleRightIcon)
-  vue.component('tool-icon', toolIcon)
-  vue.component('trash-icon', trashIcon)
-  vue.component('trash-2-icon', trash2Icon)
-  vue.component('trello-icon', trelloIcon)
-  vue.component('trending-down-icon', trendingDownIcon)
-  vue.component('trending-up-icon', trendingUpIcon)
-  vue.component('triangle-icon', triangleIcon)
-  vue.component('truck-icon', truckIcon)
-  vue.component('tv-icon', tvIcon)
-  vue.component('twitch-icon', twitchIcon)
-  vue.component('twitter-icon', twitterIcon)
-  vue.component('type-icon', typeIcon)
-  vue.component('umbrella-icon', umbrellaIcon)
-  vue.component('underline-icon', underlineIcon)
-  vue.component('unlock-icon', unlockIcon)
-  vue.component('upload-icon', uploadIcon)
-  vue.component('upload-cloud-icon', uploadCloudIcon)
-  vue.component('user-icon', userIcon)
-  vue.component('user-check-icon', userCheckIcon)
-  vue.component('user-minus-icon', userMinusIcon)
-  vue.component('user-plus-icon', userPlusIcon)
-  vue.component('user-x-icon', userXIcon)
-  vue.component('users-icon', usersIcon)
-  vue.component('video-icon', videoIcon)
-  vue.component('video-off-icon', videoOffIcon)
-  vue.component('voicemail-icon', voicemailIcon)
-  vue.component('volume-icon', volumeIcon)
-  vue.component('volume-x-icon', volumeXIcon)
-  vue.component('volume-1-icon', volume1Icon)
-  vue.component('volume-2-icon', volume2Icon)
-  vue.component('watch-icon', watchIcon)
-  vue.component('wifi-icon', wifiIcon)
-  vue.component('wifi-off-icon', wifiOffIcon)
-  vue.component('wind-icon', windIcon)
-  vue.component('x-icon', xIcon)
-  vue.component('x-circle-icon', xCircleIcon)
-  vue.component('x-circle-fill-icon', xCircleFillIcon)
-  vue.component('x-octagon-icon', xOctagonIcon)
-  vue.component('x-square-icon', xSquareIcon)
-  vue.component('youtube-icon', youtubeIcon)
-  vue.component('zap-icon', zapIcon)
-  vue.component('zap-off-icon', zapOffIcon)
-  vue.component('zero-config-icon', zeroConfigIcon)
-  vue.component('zoom-in-icon', zoomInIcon)
-  vue.component('zoom-out-icon', zoomOutIcon)
+  vue.component('activity-icon', ActivityIcon)
+  vue.component('airplay-icon', AirplayIcon)
+  vue.component('alert-circle-icon', AlertCircleIcon)
+  vue.component('alert-circle-fill-icon', AlertCircleFillIcon)
+  vue.component('alert-octagon-icon', AlertOctagonIcon)
+  vue.component('alert-triangle-icon', AlertTriangleIcon)
+  vue.component('alert-triangle-fill-icon', AlertTriangleFillIcon)
+  vue.component('align-center-icon', AlignCenterIcon)
+  vue.component('align-justify-icon', AlignJustifyIcon)
+  vue.component('align-left-icon', AlignLeftIcon)
+  vue.component('align-right-icon', AlignRightIcon)
+  vue.component('anchor-icon', AnchorIcon)
+  vue.component('aperture-icon', ApertureIcon)
+  vue.component('archive-icon', ArchiveIcon)
+  vue.component('arrow-down-icon', ArrowDownIcon)
+  vue.component('arrow-down-circle-icon', ArrowDownCircleIcon)
+  vue.component('arrow-down-left-icon', ArrowDownLeftIcon)
+  vue.component('arrow-down-right-icon', ArrowDownRightIcon)
+  vue.component('arrow-left-icon', ArrowLeftIcon)
+  vue.component('arrow-left-circle-icon', ArrowLeftCircleIcon)
+  vue.component('arrow-right-icon', ArrowRightIcon)
+  vue.component('arrow-right-circle-icon', ArrowRightCircleIcon)
+  vue.component('arrow-right-circle-fill-icon', ArrowRightCircleFillIcon)
+  vue.component('arrow-up-icon', ArrowUpIcon)
+  vue.component('arrow-up-circle-icon', ArrowUpCircleIcon)
+  vue.component('arrow-up-left-icon', ArrowUpLeftIcon)
+  vue.component('arrow-up-right-icon', ArrowUpRightIcon)
+  vue.component('at-sign-icon', AtSignIcon)
+  vue.component('award-icon', AwardIcon)
+  vue.component('bar-chart-icon', BarChartIcon)
+  vue.component('bar-chart-2-icon', BarChart2Icon)
+  vue.component('battery-icon', BatteryIcon)
+  vue.component('battery-charging-icon', BatteryChargingIcon)
+  vue.component('bell-icon', BellIcon)
+  vue.component('bell-off-icon', BellOffIcon)
+  vue.component('bluetooth-icon', BluetoothIcon)
+  vue.component('bold-icon', BoldIcon)
+  vue.component('book-icon', BookIcon)
+  vue.component('book-open-icon', BookOpenIcon)
+  vue.component('bookmark-icon', BookmarkIcon)
+  vue.component('box-icon', BoxIcon)
+  vue.component('briefcase-icon', BriefcaseIcon)
+  vue.component('calendar-icon', CalendarIcon)
+  vue.component('camera-icon', CameraIcon)
+  vue.component('camera-off-icon', CameraOffIcon)
+  vue.component('cast-icon', CastIcon)
+  vue.component('check-icon', CheckIcon)
+  vue.component('check-circle-icon', CheckCircleIcon)
+  vue.component('check-in-circle-icon', CheckInCircleIcon)
+  vue.component('check-in-circle-fill-icon', CheckInCircleFillIcon)
+  vue.component('check-square-icon', CheckSquareIcon)
+  vue.component('checkbox-icon', CheckboxIcon)
+  vue.component('checkbox-fill-icon', CheckboxFillIcon)
+  vue.component('chevron-down-icon', ChevronDownIcon)
+  vue.component('chevron-down-circle-icon', ChevronDownCircleIcon)
+  vue.component('chevron-down-circle-fill-icon', ChevronDownCircleFillIcon)
+  vue.component('chevron-left-icon', ChevronLeftIcon)
+  vue.component('chevron-left-circle-icon', ChevronLeftCircleIcon)
+  vue.component('chevron-left-circle-fill-icon', ChevronLeftCircleFillIcon)
+  vue.component('chevron-right-icon', ChevronRightIcon)
+  vue.component('chevron-right-circle-icon', ChevronRightCircleIcon)
+  vue.component('chevron-right-circle-fill-icon', ChevronRightCircleFillIcon)
+  vue.component('chevron-up-icon', ChevronUpIcon)
+  vue.component('chevron-up-circle-icon', ChevronUpCircleIcon)
+  vue.component('chevron-up-circle-fill-icon', ChevronUpCircleFillIcon)
+  vue.component('chevron-up-down-icon', ChevronUpDownIcon)
+  vue.component('chevrons-down-icon', ChevronsDownIcon)
+  vue.component('chevrons-left-icon', ChevronsLeftIcon)
+  vue.component('chevrons-right-icon', ChevronsRightIcon)
+  vue.component('chevrons-up-icon', ChevronsUpIcon)
+  vue.component('chrome-icon', ChromeIcon)
+  vue.component('circle-icon', CircleIcon)
+  vue.component('clipboard-icon', ClipboardIcon)
+  vue.component('clock-icon', ClockIcon)
+  vue.component('cloud-icon', CloudIcon)
+  vue.component('cloud-drizzle-icon', CloudDrizzleIcon)
+  vue.component('cloud-lightning-icon', CloudLightningIcon)
+  vue.component('cloud-off-icon', CloudOffIcon)
+  vue.component('cloud-rain-icon', CloudRainIcon)
+  vue.component('cloud-snow-icon', CloudSnowIcon)
+  vue.component('code-icon', CodeIcon)
+  vue.component('codepen-icon', CodepenIcon)
+  vue.component('codesandbox-icon', CodesandboxIcon)
+  vue.component('coffee-icon', CoffeeIcon)
+  vue.component('columns-icon', ColumnsIcon)
+  vue.component('command-icon', CommandIcon)
+  vue.component('compass-icon', CompassIcon)
+  vue.component('copy-icon', CopyIcon)
+  vue.component('corner-down-left-icon', CornerDownLeftIcon)
+  vue.component('corner-down-right-icon', CornerDownRightIcon)
+  vue.component('corner-left-down-icon', CornerLeftDownIcon)
+  vue.component('corner-left-up-icon', CornerLeftUpIcon)
+  vue.component('corner-right-down-icon', CornerRightDownIcon)
+  vue.component('corner-right-up-icon', CornerRightUpIcon)
+  vue.component('corner-up-left-icon', CornerUpLeftIcon)
+  vue.component('corner-up-right-icon', CornerUpRightIcon)
+  vue.component('cpu-icon', CpuIcon)
+  vue.component('credit-card-icon', CreditCardIcon)
+  vue.component('crop-icon', CropIcon)
+  vue.component('crosshair-icon', CrosshairIcon)
+  vue.component('database-icon', DatabaseIcon)
+  vue.component('delete-icon', DeleteIcon)
+  vue.component('disc-icon', DiscIcon)
+  vue.component('display-icon', DisplayIcon)
+  vue.component('divider-icon', DividerIcon)
+  vue.component('dollar-sign-icon', DollarSignIcon)
+  vue.component('download-icon', DownloadIcon)
+  vue.component('download-cloud-icon', DownloadCloudIcon)
+  vue.component('droplet-icon', DropletIcon)
+  vue.component('edit-icon', EditIcon)
+  vue.component('edit-2-icon', Edit2Icon)
+  vue.component('edit-3-icon', Edit3Icon)
+  vue.component('emoji-icon', EmojiIcon)
+  vue.component('external-link-icon', ExternalLinkIcon)
+  vue.component('eye-icon', EyeIcon)
+  vue.component('eye-off-icon', EyeOffIcon)
+  vue.component('facebook-icon', FacebookIcon)
+  vue.component('fast-forward-icon', FastForwardIcon)
+  vue.component('feather-icon', FeatherIcon)
+  vue.component('figma-icon', FigmaIcon)
+  vue.component('file-icon', FileIcon)
+  vue.component('file-function-icon', FileFunctionIcon)
+  vue.component('file-function-fill-icon', FileFunctionFillIcon)
+  vue.component('file-lambda-icon', FileLambdaIcon)
+  vue.component('file-lambda-fill-icon', FileLambdaFillIcon)
+  vue.component('file-minus-icon', FileMinusIcon)
+  vue.component('file-plus-icon', FilePlusIcon)
+  vue.component('file-text-icon', FileTextIcon)
+  vue.component('film-icon', FilmIcon)
+  vue.component('filter-icon', FilterIcon)
+  vue.component('flag-icon', FlagIcon)
+  vue.component('folder-icon', FolderIcon)
+  vue.component('folder-minus-icon', FolderMinusIcon)
+  vue.component('folder-plus-icon', FolderPlusIcon)
+  vue.component('framer-icon', FramerIcon)
+  vue.component('frown-icon', FrownIcon)
+  vue.component('full-screen-icon', FullScreenIcon)
+  vue.component('full-screen-close-icon', FullScreenCloseIcon)
+  vue.component('function-icon', FunctionIcon)
+  vue.component('gift-icon', GiftIcon)
+  vue.component('git-branch-icon', GitBranchIcon)
+  vue.component('git-commit-icon', GitCommitIcon)
+  vue.component('git-merge-icon', GitMergeIcon)
+  vue.component('git-pull-request-icon', GitPullRequestIcon)
+  vue.component('github-icon', GithubIcon)
+  vue.component('gitlab-icon', GitlabIcon)
+  vue.component('globe-icon', GlobeIcon)
+  vue.component('grid-icon', GridIcon)
+  vue.component('hard-drive-icon', HardDriveIcon)
+  vue.component('hash-icon', HashIcon)
+  vue.component('headphones-icon', HeadphonesIcon)
+  vue.component('heart-icon', HeartIcon)
+  vue.component('heart-fill-icon', HeartFillIcon)
+  vue.component('help-circle-icon', HelpCircleIcon)
+  vue.component('hexagon-icon', HexagonIcon)
+  vue.component('home-icon', HomeIcon)
+  vue.component('image-icon', ImageIcon)
+  vue.component('inbox-icon', InboxIcon)
+  vue.component('infinity-icon', InfinityIcon)
+  vue.component('info-icon', InfoIcon)
+  vue.component('info-fill-icon', InfoFillIcon)
+  vue.component('instagram-icon', InstagramIcon)
+  vue.component('italic-icon', ItalicIcon)
+  vue.component('key-icon', KeyIcon)
+  vue.component('lambda-icon', LambdaIcon)
+  vue.component('layers-icon', LayersIcon)
+  vue.component('layout-icon', LayoutIcon)
+  vue.component('life-buoy-icon', LifeBuoyIcon)
+  vue.component('link-icon', LinkIcon)
+  vue.component('link-2-icon', Link2Icon)
+  vue.component('linkedin-icon', LinkedinIcon)
+  vue.component('list-icon', ListIcon)
+  vue.component('loader-icon', LoaderIcon)
+  vue.component('lock-icon', LockIcon)
+  vue.component('log-in-icon', LogInIcon)
+  vue.component('log-out-icon', LogOutIcon)
+  vue.component('mail-icon', MailIcon)
+  vue.component('map-icon', MapIcon)
+  vue.component('map-pin-icon', MapPinIcon)
+  vue.component('maximize-icon', MaximizeIcon)
+  vue.component('maximize-2-icon', Maximize2Icon)
+  vue.component('meh-icon', MehIcon)
+  vue.component('menu-icon', MenuIcon)
+  vue.component('message-circle-icon', MessageCircleIcon)
+  vue.component('message-square-icon', MessageSquareIcon)
+  vue.component('mic-icon', MicIcon)
+  vue.component('mic-off-icon', MicOffIcon)
+  vue.component('minimize-icon', MinimizeIcon)
+  vue.component('minimize-2-icon', Minimize2Icon)
+  vue.component('minus-icon', MinusIcon)
+  vue.component('minus-circle-icon', MinusCircleIcon)
+  vue.component('minus-square-icon', MinusSquareIcon)
+  vue.component('monitor-icon', MonitorIcon)
+  vue.component('moon-icon', MoonIcon)
+  vue.component('more-horizontal-icon', MoreHorizontalIcon)
+  vue.component('more-vertical-icon', MoreVerticalIcon)
+  vue.component('mouse-pointer-icon', MousePointerIcon)
+  vue.component('move-icon', MoveIcon)
+  vue.component('music-icon', MusicIcon)
+  vue.component('navigation-icon', NavigationIcon)
+  vue.component('navigation-2-icon', Navigation2Icon)
+  vue.component('octagon-icon', OctagonIcon)
+  vue.component('package-icon', PackageIcon)
+  vue.component('paperclip-icon', PaperclipIcon)
+  vue.component('pause-icon', PauseIcon)
+  vue.component('pause-fill-icon', PauseFillIcon)
+  vue.component('pause-circle-icon', PauseCircleIcon)
+  vue.component('pen-tool-icon', PenToolIcon)
+  vue.component('percent-icon', PercentIcon)
+  vue.component('phone-icon', PhoneIcon)
+  vue.component('phone-call-icon', PhoneCallIcon)
+  vue.component('phone-forwarded-icon', PhoneForwardedIcon)
+  vue.component('phone-incoming-icon', PhoneIncomingIcon)
+  vue.component('phone-missed-icon', PhoneMissedIcon)
+  vue.component('phone-off-icon', PhoneOffIcon)
+  vue.component('phone-outgoing-icon', PhoneOutgoingIcon)
+  vue.component('pie-chart-icon', PieChartIcon)
+  vue.component('pin-icon', PinIcon)
+  vue.component('play-icon', PlayIcon)
+  vue.component('play-fill-icon', PlayFillIcon)
+  vue.component('play-circle-icon', PlayCircleIcon)
+  vue.component('plus-icon', PlusIcon)
+  vue.component('plus-circle-icon', PlusCircleIcon)
+  vue.component('plus-square-icon', PlusSquareIcon)
+  vue.component('pocket-icon', PocketIcon)
+  vue.component('power-icon', PowerIcon)
+  vue.component('printer-icon', PrinterIcon)
+  vue.component('question-circle-icon', QuestionCircleIcon)
+  vue.component('radio-icon', RadioIcon)
+  vue.component('refresh-ccw-icon', RefreshCcwIcon)
+  vue.component('refresh-cw-icon', RefreshCwIcon)
+  vue.component('repeat-icon', RepeatIcon)
+  vue.component('rewind-icon', RewindIcon)
+  vue.component('rotate-ccw-icon', RotateCcwIcon)
+  vue.component('rotate-cw-icon', RotateCwIcon)
+  vue.component('rss-icon', RssIcon)
+  vue.component('save-icon', SaveIcon)
+  vue.component('scissors-icon', ScissorsIcon)
+  vue.component('search-icon', SearchIcon)
+  vue.component('send-icon', SendIcon)
+  vue.component('server-icon', ServerIcon)
+  vue.component('settings-icon', SettingsIcon)
+  vue.component('share-icon', ShareIcon)
+  vue.component('share-2-icon', Share2Icon)
+  vue.component('shield-icon', ShieldIcon)
+  vue.component('shield-off-icon', ShieldOffIcon)
+  vue.component('shopping-bag-icon', ShoppingBagIcon)
+  vue.component('shopping-cart-icon', ShoppingCartIcon)
+  vue.component('shuffle-icon', ShuffleIcon)
+  vue.component('sidebar-icon', SidebarIcon)
+  vue.component('skip-back-icon', SkipBackIcon)
+  vue.component('skip-forward-icon', SkipForwardIcon)
+  vue.component('slack-icon', SlackIcon)
+  vue.component('slash-icon', SlashIcon)
+  vue.component('sliders-icon', SlidersIcon)
+  vue.component('smartphone-icon', SmartphoneIcon)
+  vue.component('smile-icon', SmileIcon)
+  vue.component('speaker-icon', SpeakerIcon)
+  vue.component('square-icon', SquareIcon)
+  vue.component('star-icon', StarIcon)
+  vue.component('stop-circle-icon', StopCircleIcon)
+  vue.component('sun-icon', SunIcon)
+  vue.component('sunrise-icon', SunriseIcon)
+  vue.component('sunset-icon', SunsetIcon)
+  vue.component('tablet-icon', TabletIcon)
+  vue.component('tag-icon', TagIcon)
+  vue.component('target-icon', TargetIcon)
+  vue.component('terminal-icon', TerminalIcon)
+  vue.component('thermometer-icon', ThermometerIcon)
+  vue.component('thumbs-down-icon', ThumbsDownIcon)
+  vue.component('thumbs-up-icon', ThumbsUpIcon)
+  vue.component('toggle-left-icon', ToggleLeftIcon)
+  vue.component('toggle-right-icon', ToggleRightIcon)
+  vue.component('tool-icon', ToolIcon)
+  vue.component('trash-icon', TrashIcon)
+  vue.component('trash-2-icon', Trash2Icon)
+  vue.component('trello-icon', TrelloIcon)
+  vue.component('trending-down-icon', TrendingDownIcon)
+  vue.component('trending-up-icon', TrendingUpIcon)
+  vue.component('triangle-icon', TriangleIcon)
+  vue.component('truck-icon', TruckIcon)
+  vue.component('tv-icon', TvIcon)
+  vue.component('twitch-icon', TwitchIcon)
+  vue.component('twitter-icon', TwitterIcon)
+  vue.component('type-icon', TypeIcon)
+  vue.component('umbrella-icon', UmbrellaIcon)
+  vue.component('underline-icon', UnderlineIcon)
+  vue.component('unlock-icon', UnlockIcon)
+  vue.component('upload-icon', UploadIcon)
+  vue.component('upload-cloud-icon', UploadCloudIcon)
+  vue.component('user-icon', UserIcon)
+  vue.component('user-check-icon', UserCheckIcon)
+  vue.component('user-minus-icon', UserMinusIcon)
+  vue.component('user-plus-icon', UserPlusIcon)
+  vue.component('user-x-icon', UserXIcon)
+  vue.component('users-icon', UsersIcon)
+  vue.component('video-icon', VideoIcon)
+  vue.component('video-off-icon', VideoOffIcon)
+  vue.component('voicemail-icon', VoicemailIcon)
+  vue.component('volume-icon', VolumeIcon)
+  vue.component('volume-x-icon', VolumeXIcon)
+  vue.component('volume-1-icon', Volume1Icon)
+  vue.component('volume-2-icon', Volume2Icon)
+  vue.component('watch-icon', WatchIcon)
+  vue.component('wifi-icon', WifiIcon)
+  vue.component('wifi-off-icon', WifiOffIcon)
+  vue.component('wind-icon', WindIcon)
+  vue.component('x-icon', XIcon)
+  vue.component('x-circle-icon', XCircleIcon)
+  vue.component('x-circle-fill-icon', XCircleFillIcon)
+  vue.component('x-octagon-icon', XOctagonIcon)
+  vue.component('x-square-icon', XSquareIcon)
+  vue.component('youtube-icon', YoutubeIcon)
+  vue.component('zap-icon', ZapIcon)
+  vue.component('zap-off-icon', ZapOffIcon)
+  vue.component('zero-config-icon', ZeroConfigIcon)
+  vue.component('zoom-in-icon', ZoomInIcon)
+  vue.component('zoom-out-icon', ZoomOutIcon)
 
 }
 if (typeof window !== 'undefined' && window.Vue) {
   install(window.Vue)
 }
 export {
-  activityIcon,
-  airplayIcon,
-  alertCircleIcon,
-  alertCircleFillIcon,
-  alertOctagonIcon,
-  alertTriangleIcon,
-  alertTriangleFillIcon,
-  alignCenterIcon,
-  alignJustifyIcon,
-  alignLeftIcon,
-  alignRightIcon,
-  anchorIcon,
-  apertureIcon,
-  archiveIcon,
-  arrowDownIcon,
-  arrowDownCircleIcon,
-  arrowDownLeftIcon,
-  arrowDownRightIcon,
-  arrowLeftIcon,
-  arrowLeftCircleIcon,
-  arrowRightIcon,
-  arrowRightCircleIcon,
-  arrowRightCircleFillIcon,
-  arrowUpIcon,
-  arrowUpCircleIcon,
-  arrowUpLeftIcon,
-  arrowUpRightIcon,
-  atSignIcon,
-  awardIcon,
-  barChartIcon,
-  barChart2Icon,
-  batteryIcon,
-  batteryChargingIcon,
-  bellIcon,
-  bellOffIcon,
-  bluetoothIcon,
-  boldIcon,
-  bookIcon,
-  bookOpenIcon,
-  bookmarkIcon,
-  boxIcon,
-  briefcaseIcon,
-  calendarIcon,
-  cameraIcon,
-  cameraOffIcon,
-  castIcon,
-  checkIcon,
-  checkCircleIcon,
-  checkInCircleIcon,
-  checkInCircleFillIcon,
-  checkSquareIcon,
-  checkboxIcon,
-  checkboxFillIcon,
-  chevronDownIcon,
-  chevronDownCircleIcon,
-  chevronDownCircleFillIcon,
-  chevronLeftIcon,
-  chevronLeftCircleIcon,
-  chevronLeftCircleFillIcon,
-  chevronRightIcon,
-  chevronRightCircleIcon,
-  chevronRightCircleFillIcon,
-  chevronUpIcon,
-  chevronUpCircleIcon,
-  chevronUpCircleFillIcon,
-  chevronUpDownIcon,
-  chevronsDownIcon,
-  chevronsLeftIcon,
-  chevronsRightIcon,
-  chevronsUpIcon,
-  chromeIcon,
-  circleIcon,
-  clipboardIcon,
-  clockIcon,
-  cloudIcon,
-  cloudDrizzleIcon,
-  cloudLightningIcon,
-  cloudOffIcon,
-  cloudRainIcon,
-  cloudSnowIcon,
-  codeIcon,
-  codepenIcon,
-  codesandboxIcon,
-  coffeeIcon,
-  columnsIcon,
-  commandIcon,
-  compassIcon,
-  copyIcon,
-  cornerDownLeftIcon,
-  cornerDownRightIcon,
-  cornerLeftDownIcon,
-  cornerLeftUpIcon,
-  cornerRightDownIcon,
-  cornerRightUpIcon,
-  cornerUpLeftIcon,
-  cornerUpRightIcon,
-  cpuIcon,
-  creditCardIcon,
-  cropIcon,
-  crosshairIcon,
-  databaseIcon,
-  deleteIcon,
-  discIcon,
-  displayIcon,
-  dividerIcon,
-  dollarSignIcon,
-  downloadIcon,
-  downloadCloudIcon,
-  dropletIcon,
-  editIcon,
-  edit2Icon,
-  edit3Icon,
-  emojiIcon,
-  externalLinkIcon,
-  eyeIcon,
-  eyeOffIcon,
-  facebookIcon,
-  fastForwardIcon,
-  featherIcon,
-  figmaIcon,
-  fileIcon,
-  fileFunctionIcon,
-  fileFunctionFillIcon,
-  fileLambdaIcon,
-  fileLambdaFillIcon,
-  fileMinusIcon,
-  filePlusIcon,
-  fileTextIcon,
-  filmIcon,
-  filterIcon,
-  flagIcon,
-  folderIcon,
-  folderMinusIcon,
-  folderPlusIcon,
-  framerIcon,
-  frownIcon,
-  fullScreenIcon,
-  fullScreenCloseIcon,
-  functionIcon,
-  giftIcon,
-  gitBranchIcon,
-  gitCommitIcon,
-  gitMergeIcon,
-  gitPullRequestIcon,
-  githubIcon,
-  gitlabIcon,
-  globeIcon,
-  gridIcon,
-  hardDriveIcon,
-  hashIcon,
-  headphonesIcon,
-  heartIcon,
-  heartFillIcon,
-  helpCircleIcon,
-  hexagonIcon,
-  homeIcon,
-  imageIcon,
-  inboxIcon,
-  infinityIcon,
-  infoIcon,
-  infoFillIcon,
-  instagramIcon,
-  italicIcon,
-  keyIcon,
-  lambdaIcon,
-  layersIcon,
-  layoutIcon,
-  lifeBuoyIcon,
-  linkIcon,
-  link2Icon,
-  linkedinIcon,
-  listIcon,
-  loaderIcon,
-  lockIcon,
-  logInIcon,
-  logOutIcon,
-  mailIcon,
-  mapIcon,
-  mapPinIcon,
-  maximizeIcon,
-  maximize2Icon,
-  mehIcon,
-  menuIcon,
-  messageCircleIcon,
-  messageSquareIcon,
-  micIcon,
-  micOffIcon,
-  minimizeIcon,
-  minimize2Icon,
-  minusIcon,
-  minusCircleIcon,
-  minusSquareIcon,
-  monitorIcon,
-  moonIcon,
-  moreHorizontalIcon,
-  moreVerticalIcon,
-  mousePointerIcon,
-  moveIcon,
-  musicIcon,
-  navigationIcon,
-  navigation2Icon,
-  octagonIcon,
-  packageIcon,
-  paperclipIcon,
-  pauseIcon,
-  pauseFillIcon,
-  pauseCircleIcon,
-  penToolIcon,
-  percentIcon,
-  phoneIcon,
-  phoneCallIcon,
-  phoneForwardedIcon,
-  phoneIncomingIcon,
-  phoneMissedIcon,
-  phoneOffIcon,
-  phoneOutgoingIcon,
-  pieChartIcon,
-  pinIcon,
-  playIcon,
-  playFillIcon,
-  playCircleIcon,
-  plusIcon,
-  plusCircleIcon,
-  plusSquareIcon,
-  pocketIcon,
-  powerIcon,
-  printerIcon,
-  questionCircleIcon,
-  radioIcon,
-  refreshCcwIcon,
-  refreshCwIcon,
-  repeatIcon,
-  rewindIcon,
-  rotateCcwIcon,
-  rotateCwIcon,
-  rssIcon,
-  saveIcon,
-  scissorsIcon,
-  searchIcon,
-  sendIcon,
-  serverIcon,
-  settingsIcon,
-  shareIcon,
-  share2Icon,
-  shieldIcon,
-  shieldOffIcon,
-  shoppingBagIcon,
-  shoppingCartIcon,
-  shuffleIcon,
-  sidebarIcon,
-  skipBackIcon,
-  skipForwardIcon,
-  slackIcon,
-  slashIcon,
-  slidersIcon,
-  smartphoneIcon,
-  smileIcon,
-  speakerIcon,
-  squareIcon,
-  starIcon,
-  stopCircleIcon,
-  sunIcon,
-  sunriseIcon,
-  sunsetIcon,
-  tabletIcon,
-  tagIcon,
-  targetIcon,
-  terminalIcon,
-  thermometerIcon,
-  thumbsDownIcon,
-  thumbsUpIcon,
-  toggleLeftIcon,
-  toggleRightIcon,
-  toolIcon,
-  trashIcon,
-  trash2Icon,
-  trelloIcon,
-  trendingDownIcon,
-  trendingUpIcon,
-  triangleIcon,
-  truckIcon,
-  tvIcon,
-  twitchIcon,
-  twitterIcon,
-  typeIcon,
-  umbrellaIcon,
-  underlineIcon,
-  unlockIcon,
-  uploadIcon,
-  uploadCloudIcon,
-  userIcon,
-  userCheckIcon,
-  userMinusIcon,
-  userPlusIcon,
-  userXIcon,
-  usersIcon,
-  videoIcon,
-  videoOffIcon,
-  voicemailIcon,
-  volumeIcon,
-  volumeXIcon,
-  volume1Icon,
-  volume2Icon,
-  watchIcon,
-  wifiIcon,
-  wifiOffIcon,
-  windIcon,
-  xIcon,
-  xCircleIcon,
-  xCircleFillIcon,
-  xOctagonIcon,
-  xSquareIcon,
-  youtubeIcon,
-  zapIcon,
-  zapOffIcon,
-  zeroConfigIcon,
-  zoomInIcon,
-  zoomOutIcon,
+  ActivityIcon,
+  AirplayIcon,
+  AlertCircleIcon,
+  AlertCircleFillIcon,
+  AlertOctagonIcon,
+  AlertTriangleIcon,
+  AlertTriangleFillIcon,
+  AlignCenterIcon,
+  AlignJustifyIcon,
+  AlignLeftIcon,
+  AlignRightIcon,
+  AnchorIcon,
+  ApertureIcon,
+  ArchiveIcon,
+  ArrowDownIcon,
+  ArrowDownCircleIcon,
+  ArrowDownLeftIcon,
+  ArrowDownRightIcon,
+  ArrowLeftIcon,
+  ArrowLeftCircleIcon,
+  ArrowRightIcon,
+  ArrowRightCircleIcon,
+  ArrowRightCircleFillIcon,
+  ArrowUpIcon,
+  ArrowUpCircleIcon,
+  ArrowUpLeftIcon,
+  ArrowUpRightIcon,
+  AtSignIcon,
+  AwardIcon,
+  BarChartIcon,
+  BarChart2Icon,
+  BatteryIcon,
+  BatteryChargingIcon,
+  BellIcon,
+  BellOffIcon,
+  BluetoothIcon,
+  BoldIcon,
+  BookIcon,
+  BookOpenIcon,
+  BookmarkIcon,
+  BoxIcon,
+  BriefcaseIcon,
+  CalendarIcon,
+  CameraIcon,
+  CameraOffIcon,
+  CastIcon,
+  CheckIcon,
+  CheckCircleIcon,
+  CheckInCircleIcon,
+  CheckInCircleFillIcon,
+  CheckSquareIcon,
+  CheckboxIcon,
+  CheckboxFillIcon,
+  ChevronDownIcon,
+  ChevronDownCircleIcon,
+  ChevronDownCircleFillIcon,
+  ChevronLeftIcon,
+  ChevronLeftCircleIcon,
+  ChevronLeftCircleFillIcon,
+  ChevronRightIcon,
+  ChevronRightCircleIcon,
+  ChevronRightCircleFillIcon,
+  ChevronUpIcon,
+  ChevronUpCircleIcon,
+  ChevronUpCircleFillIcon,
+  ChevronUpDownIcon,
+  ChevronsDownIcon,
+  ChevronsLeftIcon,
+  ChevronsRightIcon,
+  ChevronsUpIcon,
+  ChromeIcon,
+  CircleIcon,
+  ClipboardIcon,
+  ClockIcon,
+  CloudIcon,
+  CloudDrizzleIcon,
+  CloudLightningIcon,
+  CloudOffIcon,
+  CloudRainIcon,
+  CloudSnowIcon,
+  CodeIcon,
+  CodepenIcon,
+  CodesandboxIcon,
+  CoffeeIcon,
+  ColumnsIcon,
+  CommandIcon,
+  CompassIcon,
+  CopyIcon,
+  CornerDownLeftIcon,
+  CornerDownRightIcon,
+  CornerLeftDownIcon,
+  CornerLeftUpIcon,
+  CornerRightDownIcon,
+  CornerRightUpIcon,
+  CornerUpLeftIcon,
+  CornerUpRightIcon,
+  CpuIcon,
+  CreditCardIcon,
+  CropIcon,
+  CrosshairIcon,
+  DatabaseIcon,
+  DeleteIcon,
+  DiscIcon,
+  DisplayIcon,
+  DividerIcon,
+  DollarSignIcon,
+  DownloadIcon,
+  DownloadCloudIcon,
+  DropletIcon,
+  EditIcon,
+  Edit2Icon,
+  Edit3Icon,
+  EmojiIcon,
+  ExternalLinkIcon,
+  EyeIcon,
+  EyeOffIcon,
+  FacebookIcon,
+  FastForwardIcon,
+  FeatherIcon,
+  FigmaIcon,
+  FileIcon,
+  FileFunctionIcon,
+  FileFunctionFillIcon,
+  FileLambdaIcon,
+  FileLambdaFillIcon,
+  FileMinusIcon,
+  FilePlusIcon,
+  FileTextIcon,
+  FilmIcon,
+  FilterIcon,
+  FlagIcon,
+  FolderIcon,
+  FolderMinusIcon,
+  FolderPlusIcon,
+  FramerIcon,
+  FrownIcon,
+  FullScreenIcon,
+  FullScreenCloseIcon,
+  FunctionIcon,
+  GiftIcon,
+  GitBranchIcon,
+  GitCommitIcon,
+  GitMergeIcon,
+  GitPullRequestIcon,
+  GithubIcon,
+  GitlabIcon,
+  GlobeIcon,
+  GridIcon,
+  HardDriveIcon,
+  HashIcon,
+  HeadphonesIcon,
+  HeartIcon,
+  HeartFillIcon,
+  HelpCircleIcon,
+  HexagonIcon,
+  HomeIcon,
+  ImageIcon,
+  InboxIcon,
+  InfinityIcon,
+  InfoIcon,
+  InfoFillIcon,
+  InstagramIcon,
+  ItalicIcon,
+  KeyIcon,
+  LambdaIcon,
+  LayersIcon,
+  LayoutIcon,
+  LifeBuoyIcon,
+  LinkIcon,
+  Link2Icon,
+  LinkedinIcon,
+  ListIcon,
+  LoaderIcon,
+  LockIcon,
+  LogInIcon,
+  LogOutIcon,
+  MailIcon,
+  MapIcon,
+  MapPinIcon,
+  MaximizeIcon,
+  Maximize2Icon,
+  MehIcon,
+  MenuIcon,
+  MessageCircleIcon,
+  MessageSquareIcon,
+  MicIcon,
+  MicOffIcon,
+  MinimizeIcon,
+  Minimize2Icon,
+  MinusIcon,
+  MinusCircleIcon,
+  MinusSquareIcon,
+  MonitorIcon,
+  MoonIcon,
+  MoreHorizontalIcon,
+  MoreVerticalIcon,
+  MousePointerIcon,
+  MoveIcon,
+  MusicIcon,
+  NavigationIcon,
+  Navigation2Icon,
+  OctagonIcon,
+  PackageIcon,
+  PaperclipIcon,
+  PauseIcon,
+  PauseFillIcon,
+  PauseCircleIcon,
+  PenToolIcon,
+  PercentIcon,
+  PhoneIcon,
+  PhoneCallIcon,
+  PhoneForwardedIcon,
+  PhoneIncomingIcon,
+  PhoneMissedIcon,
+  PhoneOffIcon,
+  PhoneOutgoingIcon,
+  PieChartIcon,
+  PinIcon,
+  PlayIcon,
+  PlayFillIcon,
+  PlayCircleIcon,
+  PlusIcon,
+  PlusCircleIcon,
+  PlusSquareIcon,
+  PocketIcon,
+  PowerIcon,
+  PrinterIcon,
+  QuestionCircleIcon,
+  RadioIcon,
+  RefreshCcwIcon,
+  RefreshCwIcon,
+  RepeatIcon,
+  RewindIcon,
+  RotateCcwIcon,
+  RotateCwIcon,
+  RssIcon,
+  SaveIcon,
+  ScissorsIcon,
+  SearchIcon,
+  SendIcon,
+  ServerIcon,
+  SettingsIcon,
+  ShareIcon,
+  Share2Icon,
+  ShieldIcon,
+  ShieldOffIcon,
+  ShoppingBagIcon,
+  ShoppingCartIcon,
+  ShuffleIcon,
+  SidebarIcon,
+  SkipBackIcon,
+  SkipForwardIcon,
+  SlackIcon,
+  SlashIcon,
+  SlidersIcon,
+  SmartphoneIcon,
+  SmileIcon,
+  SpeakerIcon,
+  SquareIcon,
+  StarIcon,
+  StopCircleIcon,
+  SunIcon,
+  SunriseIcon,
+  SunsetIcon,
+  TabletIcon,
+  TagIcon,
+  TargetIcon,
+  TerminalIcon,
+  ThermometerIcon,
+  ThumbsDownIcon,
+  ThumbsUpIcon,
+  ToggleLeftIcon,
+  ToggleRightIcon,
+  ToolIcon,
+  TrashIcon,
+  Trash2Icon,
+  TrelloIcon,
+  TrendingDownIcon,
+  TrendingUpIcon,
+  TriangleIcon,
+  TruckIcon,
+  TvIcon,
+  TwitchIcon,
+  TwitterIcon,
+  TypeIcon,
+  UmbrellaIcon,
+  UnderlineIcon,
+  UnlockIcon,
+  UploadIcon,
+  UploadCloudIcon,
+  UserIcon,
+  UserCheckIcon,
+  UserMinusIcon,
+  UserPlusIcon,
+  UserXIcon,
+  UsersIcon,
+  VideoIcon,
+  VideoOffIcon,
+  VoicemailIcon,
+  VolumeIcon,
+  VolumeXIcon,
+  Volume1Icon,
+  Volume2Icon,
+  WatchIcon,
+  WifiIcon,
+  WifiOffIcon,
+  WindIcon,
+  XIcon,
+  XCircleIcon,
+  XCircleFillIcon,
+  XOctagonIcon,
+  XSquareIcon,
+  YoutubeIcon,
+  ZapIcon,
+  ZapOffIcon,
+  ZeroConfigIcon,
+  ZoomInIcon,
+  ZoomOutIcon,
   install,
 }

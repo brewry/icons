@@ -1,7 +1,10 @@
 {
-  "name": "icons",
-  "version": "0.1.0",
-  "private": true,
+  "name": "@pacely/brew-icons",
+  "version": "0.1.1",
+  "repository": "https://github.com/pacely/brew-icons.git",
+  "author": "Chris Magnussen <chris@hirvi.no>",
+  "license": "MIT",
+  "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
