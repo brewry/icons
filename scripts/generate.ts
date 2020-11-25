@@ -8,6 +8,8 @@ import { toHumpName, parseSvg, parseStyles } from './tools'
 const outputDir = path.join(__dirname, '../', 'packages')
 const exampleDataFilePath = path.join(__dirname, '../src/assets/data.json')
 const sourceFile = path.join(__dirname, '../', '.source')
+const typeDeclaraction = path.join(__dirname, '../', 'types/index.d.ts')
+const typeDeclaractionMap = path.join(__dirname, '../', 'types/index.d.ts.map')
 
 const makeMixin = () => {
   return `export const props = { size: [String, Number], color: String }
@@ -39,7 +41,8 @@ export default (async () => {
   let imports = '',
     install = '',
     exportNames = '',
-    names = []
+    names = [],
+    tsExports = '';
 
   await Promise.all(
     Array.from(icons).map(async (icon: Element) => {
@@ -48,6 +51,7 @@ export default (async () => {
       componentName = componentName.charAt(0).toUpperCase() + componentName.slice(1)
       console.log(componentName);
       imports += `import ${componentName}Icon from './${name}.vue'\n`
+      tsExports += `export class ${componentName}Icon {}\n`
       install += `  vue.component('${name}-icon', ${componentName}Icon)\n`
       exportNames += `  ${componentName}Icon,\n`
       names.push(name)
@@ -74,11 +78,27 @@ if (typeof window !== 'undefined' && window.Vue) {
 }
 export {\n${exportNames}  install,\n}`
 
+  const indexts = `import Vue from 'vue';\n\ndeclare module 'brew-icons' {\n  export function install(): void;\n${tsExports}\n}`
+
+  await fs.outputFile(path.join(outputDir, 'index.d.ts'), indexts)
+
   await fs.outputFile(path.join(outputDir, 'index.js'), indexjs)
 
   await fs.outputFile(path.join(outputDir, 'mixin.js'), makeMixin())
 
   await fs.writeJSON(exampleDataFilePath, names)
+
+  // const { exec } = require('child_process');
+  /*exec('yarn generate-types', async (err, stdout, stderr) => {
+    if (err) {
+      // node couldn't execute the command
+      return;
+    }
+
+    // the *entire* stdout and stderr (buffered)
+    await fs.copyFile(typeDeclaraction, path.join(outputDir, 'index.d.ts'));
+    await fs.copyFile(typeDeclaractionMap, path.join(outputDir, 'index.d.ts.map'));
+  });*/
 })().catch(err => {
   console.log(err)
 })

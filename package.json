@@ -1,6 +1,6 @@
 {
   "name": "@pacely/brew-icons",
-  "version": "0.1.2",
+  "version": "1.0.2",
   "repository": "https://github.com/pacely/brew-icons.git",
   "author": "Chris Magnussen <chris@hirvi.no>",
   "license": "MIT",
@@ -13,12 +13,12 @@
     "icons": "ts-node scripts/generate.ts",
     "build:lib": "node scripts/build-check.js && vue-cli-service build --target lib --name index ./packages/index.js",
     "release": "yarn icons && yarn publish --access public",
-    "generate-types": "tsc ./packages/**/*.js --declaration --allowJs --emitDeclarationOnly --declarationMap --outDir types"
+    "generate-types": "tsc dist/index.common.js --declaration --allowJs --emitDeclarationOnly --declarationMap --outDir types"
   },
   "main": "packages/index.js",
   "module": "packages/index.js",
   "unpkg": "dist/index.umd.js",
-  "types": "types/index.d.ts",
+  "types": "packages/index.d.ts",
   "files": [
     "dist",
     "packages",
