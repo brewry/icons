@@ -51,7 +51,7 @@ export default (async () => {
       componentName = componentName.charAt(0).toUpperCase() + componentName.slice(1)
       console.log(componentName);
       imports += `import ${componentName}Icon from './${name}.vue'\n`
-      tsExports += `export class ${componentName}Icon {}\n`
+      tsExports += `export const ${componentName}Icon: BrewIconComponent;\n`
       install += `  vue.component('${name}-icon', ${componentName}Icon)\n`
       exportNames += `  ${componentName}Icon,\n`
       names.push(name)
@@ -78,7 +78,14 @@ if (typeof window !== 'undefined' && window.Vue) {
 }
 export {\n${exportNames}  install,\n}`
 
-  const indexts = `import Vue from 'vue';\n\ndeclare module 'brew-icons' {\n  export function install(): void;\n${tsExports}\n}`
+  // const indexts = `import Vue from 'vue';\n\ndeclare module 'brew-icons' {\n  export function install(): void;\n${tsExports}\n}`
+  const indexts = `import Vue from 'vue';
+import { ExtendedVue } from 'vue/types/vue';
+export interface BrewIconProps {
+  size: string | number;
+}
+export type BrewIconComponent = ExtendedVue<Vue,{},{},{},BrewIconProps>;
+\n${tsExports}\n`
 
   await fs.outputFile(path.join(outputDir, 'index.d.ts'), indexts)
 
