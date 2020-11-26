@@ -83,6 +83,7 @@ export {\n${exportNames}  install,\n}`
 import { ExtendedVue } from 'vue/types/vue';
 export interface BrewIconProps {
   size: string | number;
+  color: string;
 }
 export type BrewIconComponent = ExtendedVue<Vue,{},{},{},BrewIconProps>;
 \n${tsExports}\n`
