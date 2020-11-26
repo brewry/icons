@@ -1,30 +1,40 @@
-## vue-icons
-Vue icon components for Brew UI.
+## @brewry/icons
+Icons(feather-icons) used for the [Brewry UI Kit](#).
 
-`vue-icons` is a high quality icon library, all components are displayed by `svg`.
+`@brewry/icons` is a high quality icon library, all components are displayed by `svg`.
 
 <br/>
 
 ### Usage
 
-1. install: `yarn add @brew/icons`.
+1. Install: `yarn add @brewry/icons`.
 
-2. import all:
+2. Global import
     ```js
-    import { install } from '@brew/icons'
+    import { install } from '@brewry/icons'
     import Vue from 'vue'
     
     install(Vue)
     ```
 
-<br/>
+3. Per component
+```vue
+<template>
+  <div>
+    <AirplayIcon size="24px" color="#000000"></AirplayIcon>
+  </div>
+</template>
+<script>
+import { AirplayIcon } from '@brewry/icons';
 
-### Documentation
+export default {
+  components: {
+    AirplayIcon
+  }
+}
+</script>
+```
+### See
 
-  - [vue-icons](https://vue-icons.geist-ui.dev/)
-
-
-<br/>
-
-### LICENSE
-[MIT](LICENSE)
+  - [@brewry/icons](https://github.com/brewry/icons)
+  - [feathericons](https://feathericons.com/)
